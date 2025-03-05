@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Customer Service</title>
+    <link rel="stylesheet" href="customerServiceStyle.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <h1>Customer Service</h1>
+        </div>
+    </header>
+
+    <div class="customer-service-container">
+        <section class="contact-options">
+            <h2>How Can We Help You?</h2>
+            <p>Our team is here to assist you with any inquiries.</p>
+            <div class="options">
+                <div class="option">
+                    <h3>📞 Call Us</h3>
+                    <p>Reach our support team at <strong>+1 800 123 4567</strong></p>
+                </div>
+                <div class="option">
+                    <h3>📧 Email Us</h3>
+                    <p>Send us an email at <strong>support@electronics.com</strong></p>
+                </div>
+                <div class="option">
+                    <h3>💬 Live Chat</h3>
+                    <p>Chat with our support agents in real-time.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <h2>Common Questions</h2>
+            <p>Check out our <a href="faq.html">FAQ page</a> for quick answers.</p>
+        </section>
+
+        <section class="support-form">
+            <h2>Submit a Support Ticket</h2>
+            <form>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="issue">Issue Type</label>
+                <select id="issue" name="issue">
+                    <option value="order">Order Issue</option>
+                    <option value="payment">Payment Problem</option>
+                    <option value="technical">Technical Support</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 NetNinjas's Store. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
